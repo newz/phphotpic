@@ -1,0 +1,3 @@
+﻿RewriteEngine on
+
+RewriteRule ^(.*)show/([0-9]+)$ $1index.php?mod=show&id=$2

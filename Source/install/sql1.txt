@@ -1,0 +1,13 @@
+CREATE TABLE `[pre]images` (
+  `id` int(10) unsigned NOT NULL auto_increment,
+  `ip` varchar(15) NOT NULL,
+  `time` int(10) unsigned NOT NULL,
+  `md5` char(32) NOT NULL,
+  `size` int(10) unsigned NOT NULL,
+  `filename` varchar(100) NOT NULL,
+  `originalname` varchar(255) NOT NULL,
+  `extension` varchar(5) NOT NULL,
+  `isthumb` tinyint(1) unsigned NOT NULL,
+  `views` mediumint(8) unsigned NOT NULL default '0',
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=[char];
