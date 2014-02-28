@@ -1,0 +1,27 @@
+<?
+
+$config = array(
+
+'db' => array(
+	'host' => 'data_dbhost',
+	'user' => 'data_dbuser',
+	'pass' => 'data_dbpass',
+	'name' => 'data_dbname',
+	'pre' => 'data_dbpre',
+	'charset' => 'data_dbcharset',
+),
+'rewrite' => array(
+	'show' => data_rewriteurl,
+),
+'admin' => array(
+	'pass' => 'data_password',
+),
+'lang' => 'th',
+'url' => 'data_url',
+'maxfilesize' => data_maxfilesize,
+'timezone' => 25200,
+'sitename' => 'data_sitename',
+
+);
+
+?>

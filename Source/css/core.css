@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-size:15px;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+#main{
+	width:880px;
+	margin:30px auto 0 auto;
+	padding:10px;
+	border:1px solid #999;
+	border-bottom-right-radius: 6px 6px;
+	border-top-right-radius: 6px 6px;
+	border-bottom-left-radius: 6px 6px;
+	border-top-left-radius: 6px 6px;
+	overflow:auto;
+}
+
+a{
+	text-decoration:none;
+	color:#00F;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#leftmenu{
+	height:100%;
+	width:200px;
+}
+
+#content{
+	border-left:1px solid #999;
+	float:right;
+	width:660px;
+	min-height:250px;
+	padding-left:20px;
+}
+
+#preupload{
+	margin-top:5px;
+}
+
+#allbb,#allhtml{
+	width:310px;
+	height:70px;
+	margin-top:3px;
+	margin-right:5px;
+}
+
+.showimage{
+	width:100%;
+	overflow:auto;
+	border-bottom:1px solid #CCC;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.display{
+	margin-top:5px;
+	float:left;
+	width:210px;
+	border:#000 dashed 1px;
+	text-align:center;
+	padding:5px;
+	font-size:14px;
+}
+
+.imgcode{
+	padding-left:230px;
+}
+
+.imgcode input{
+	font-size:12px;
+	width:400px;
+}
+
+#credit{
+	width:880px;
+	margin:0 auto;
+	text-align:right;
+	font-size:12px;
+}
+
+#head{
+	padding-bottom:10px;
+	margin-bottom:10px;
+	border-bottom:1px solid #999;
+}
+
+h1,h2{
+	padding:0;
+	margin:0;
+}
+
+.center{
+	text-align:center;
+}
+
+#imagedetail{
+	font-size:14px;
+	margin-top:10px;
+	padding-left:40px;
+}
+
+#imagedetail input{
+	width:800px;
+}
+
+.page{
+	margin:5px 0 0 0;
+	padding:0;
+	list-style:none;
+}
+.page li{
+	float:right;
+	text-align:center;
+	display:block;
+	border:#09C 1px solid;
+	border-bottom-left-radius: 3px 3px;
+	border-top-right-radius: 3px 3px;
+	border-bottom-right-radius: 3px 3px;
+	border-top-left-radius: 3px 3px;
+	margin-left:10px;
+}
+.page li:hover{
+	background:#09C;
+}
+.page li a{
+	display:block;
+	width:20px;
+	height:17px;
+	padding-top:3px;
+	font-size:12px;
+	color:#09C;
+}
+.page li:hover a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+#language{
+	list-style:none;
+	float:right;
+}
+#language li{
+	float:right;
+	margin-left:10px;
+}
